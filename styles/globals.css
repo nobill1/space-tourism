@@ -6,6 +6,14 @@
   .nav-menu {
     @apply absolute h-screen top-0 right-0 z-10 w-4/6
   }
+
+  .links {
+    @apply py-10 mr-9 uppercase text-white text-xs
+  }
+
+  .link {
+    @apply py-10 uppercase text-white text-xs
+  }
 }
 
 html,
@@ -35,8 +43,33 @@ a {
   backdrop-filter: blur(81.55px);
 }
 
+.active {
+  border-bottom: 4px solid #FFFFFF;
+}
+
+.destination:hover {
+  border-bottom: 0.5px solid #FFFFFF;
+  transition: border-bottom 0.4s ease-out;
+}
+
+.crew:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: background-color 0.4s ease-out;
+}
+
 .links:hover {
   border-bottom: 2px solid #FFFFFF;
+  transition: border-bottom 0.4s ease-out;
+}
+
+.link:hover {
+  border-bottom: 2px solid #FFFFFF;
+  transition: border-bottom 0.4s ease-out;
+}
+
+.explore:hover {
+  box-shadow: 0px 0px 0px 60px rgba(255,255,255, 0.5);
+  transition: box-shadow 0.4s ease-out;  
 }
 
 @media (min-width: 569px) { 

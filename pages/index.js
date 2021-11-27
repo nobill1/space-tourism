@@ -15,9 +15,9 @@ export default function Home() {
           experience!
         </p>
       </div>
-      <button className="flex items-center justify-center bg-white w-40 h-40 text-center rounded-full md:w-72 md:h-72 cursor-pointer">
+      <a className="flex items-center justify-center bg-white w-40 h-40 text-center rounded-full md:w-72 md:h-72 explore cursor-pointer">
         <p className="font-serif uppercase text-black text-xl md:text-4xl">Explore</p>
-      </button>
+      </a>
     </div>
   );
 }
