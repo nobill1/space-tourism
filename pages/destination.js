@@ -28,6 +28,7 @@ export default function Destination() {
           className="text-white mt-7 mb-14"
           onSelect={(i) => setImageIndex(i)}
           selectedTabClassName="border-b-4 border-white transition"
+          defaultFocus="true"
         >
           <TabList className="flex justify-center md:justify-start gap-7">
             {data.destinations.map((destination) => {

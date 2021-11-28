@@ -28,6 +28,7 @@ export default function Crew() {
             className="flex flex-col sm:flex-col-reverse text-white mt-7 mb-14"
             onSelect={(i) => setImageIndex(i)}
             selectedTabClassName="bg-opacity-90 transition"
+            defaultFocus="true"
           >
             <TabList className="flex justify-center md:justify-start gap-4">
               {data.crew.map((crew) => {

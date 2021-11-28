@@ -59,6 +59,7 @@ export default function Technology() {
             className="flex flex-col text-white mt-7 mb-14 md:flex-row md:mt-0"
             onSelect={(i) => setImageIndex(i)}
             selectedTabClassName="bg-white bg-opacity-100 text-black transition"
+            defaultFocus="true"
           >
             <TabList className="flex justify-center md:justify-start gap-4 md:flex-col md:mr-20">
               {data.technology.map((technology, index) => {

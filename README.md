@@ -1,6 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Space tourism website solution
+
+This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Author](#author)
+- [Getting Started](#getting-started)
+
+## Overview
+### Screenshot
+
+![](./public/screenshot.png)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://github.com/nobill1/space-tourism)
+- Live Site URL: [Add live site URL here](https://space-tourism-chi.vercel.app/)
+
+## My process
+
+### Built with
+
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwindcss](https://tailwindcss.com/) - For styles
+- [React Tabs](https://www.npmjs.com/package/react-tabs) - For sliders
+
+## Author
+
+- Website - [Nguimeya Bill-gates](https://billdev.netlify.app/)
+- Frontend Mentor - [@nobill1](https://www.frontendmentor.io/profile/nobill1)
+- Twitter - [@go_bill_go](https://twitter.com/go_bill_go)
+
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
