@@ -57,6 +57,11 @@ a {
   transition: background-color 0.4s ease-out;
 }
 
+.techno:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: background-color 0.4s ease-out;
+}
+
 .links:hover {
   border-bottom: 2px solid #FFFFFF;
   transition: border-bottom 0.4s ease-out;
