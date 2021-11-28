@@ -34,14 +34,14 @@ function Header() {
         <hr className="border-white absolute w-5/12 -ml-64 mmd:hidden left-0 top-1/2" />
         <ul className="flex">
           <li className="flex items-center">
-            <Link rel="stylesheet" to="#" href="/">
+            <Link href="/">
               <a className={router.asPath == "/" ? "active links" : "links"}>
                 <span className="font-bold mr-2 mmd:hidden">00</span> Home
               </a>
             </Link>
           </li>
           <li className="flex items-center">
-            <Link rel="stylesheet" to="#" href="/destination">
+            <Link href="/destination">
               <a className={router.asPath == "/destination" ? "active links" : "links"}>
                 <span className="font-bold mr-2 mmd:hidden">01</span>{" "}
                 Destination
@@ -49,14 +49,14 @@ function Header() {
             </Link>
           </li>
           <li className="flex items-center">
-            <Link rel="stylesheet" to="#" href="/crew">
+            <Link href="/crew">
               <a className={router.asPath == "/crew" ? "active links" : "links"}>
                 <span className="font-bold mr-2 mmd:hidden">02</span> Crew
               </a>
             </Link>
           </li>
           <li className="flex items-center">
-            <Link rel="stylesheet" to="#" href="/technology">
+            <Link href="/technology">
               <a className={router.asPath == "/technology" ? "active link" : "link"}>
                 <span className="font-bold mr-2 mmd:hidden">03</span> Technology
               </a>
@@ -77,28 +77,28 @@ function Header() {
         </div>
         <ul className="mt-16">
           <li className="ml-8 mb-8" onClick={showSidebar}>
-            <Link rel="stylesheet" href="/">
+            <Link href="/">
               <a className="uppercase text-white">
                 <span className="font-bold mr-2">00</span> Home
               </a>
             </Link>
           </li>
           <li className="ml-8 mb-8" onClick={showSidebar}>
-            <Link rel="stylesheet" href="/destination">
+            <Link href="/destination">
               <a className="uppercase text-white">
                 <span className="font-bold mr-2">01</span> Destination
               </a>
             </Link>
           </li>
           <li className="ml-8 mb-8" onClick={showSidebar}>
-            <Link rel="stylesheet" href="/crew"> 
+            <Link href="/crew"> 
               <a className="uppercase text-white">
                 <span className="font-bold mr-2">02</span> Crew
               </a>
             </Link>
           </li>
           <li className="ml-8 mb-8" onClick={showSidebar}>
-            <Link rel="stylesheet" href="/technology">
+            <Link href="/technology">
               <a className="uppercase text-white">
                 <span className="font-bold mr-2">03</span> Techonology
               </a>
