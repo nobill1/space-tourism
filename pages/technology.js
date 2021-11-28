@@ -43,9 +43,9 @@ export default function Technology() {
           <div className="flex items-center justify-center relative h-72 sm:h-80 lg:h-96">
             <Image
               src={
-                size > 983
-                  ? data.technology[imageIndex].images.landscape
-                  : data.technology[imageIndex].images.portrait
+                size.width > 983
+                  ? data.technology[imageIndex].images.portrait
+                  : data.technology[imageIndex].images.landscape
               }
               alt="crew image"
               layout="fill"
